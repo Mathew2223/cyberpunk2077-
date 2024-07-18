@@ -1,15 +1,25 @@
 main{
     background-image: url('11.jpg');
+    /* animation: changing 10s infinite; */
     height: 1000px;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 1920px;
     margin-left: -5px;
     margin-top: -10px;
 }
+/* .groundOfCyber{
+    animation: changing 10s infinite;
+    /* position: absolute; */
+    /* overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('11.jpg')
+} */
 header{
     display: flex;
     position: absolute;
+    z-index: 10;
 }
 .logo-c{
     width: 296px;
@@ -72,6 +82,16 @@ header{
     font-size: 62px;
     font-weight: 400;
     text-align: left;
+}
+.morr{
+    background: #000;
+    z-index: 10;
+    width: 302px;
+    height: 108px;
+    margin-top: 862px;
+    margin-left: 1046px;
+    position: absolute;
+    cursor: pointer;
 }
 
 .everFrNiceCity{
@@ -139,4 +159,58 @@ header{
     background: #000;
     width: 1920px;
     height: 814px;
+    position: absolute; 
+}
+
+.vect1{
+    position: absolute;
+    width: 132px;
+    height: 132px;
+    margin-left: 320px;
+}
+.promo{
+    position: absolute;
+    width: 77px;
+    height: 31px;
+    margin-top: 51px;
+    margin-left: 343.5px;
+    transform: rotate(-45deg);
+    font-family: Archangelsk;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30.63px;
+    text-align: left;
+    color: #F8F200;
+
+}
+.playIwin{
+    color: #fff;
+    font-family: Archangelsk;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 63.3px;
+    text-align: left;
+    margin-left: 484px;
+    margin-top: 55px;
+}
+.whPlyNed{
+    color: #fff;
+    width: 952px;
+    height: 91px;
+    margin-top: 49px;
+    margin-left: 320px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+}
+@keyframes changing {
+    0% {
+        background-image: url('11.jpg');
+    }
+    33% {
+        background-image: url('11(1).svg');
+    }
 }
