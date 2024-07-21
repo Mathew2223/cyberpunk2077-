@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cyberpunk</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fileDown.css">
     
 </head>
 <body>
@@ -66,6 +67,25 @@
             <div>
                 <p class="whPlyNed">Играй в <a style="font-weight: 700; color: #52BEDC;">Cyberpunk 2077</a> и получи возможность выиграть консоль <a style="font-weight: 700; color: #52BEDC;">Xbox Series X</a> или <a style="font-weight: 700; color: #52BEDC;">Sony PlayStation 5!</a> Заполни
                 <br> форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи! ;)</p>
+            </div>
+            <div>
+                <img id="gifts" src="Group 217.svg" alt="">
+            </div>
+            <div class="form">
+                <div class="yourName">
+                    <input type="text" placeholder="Как тебя зовут?">
+                </div>
+                <div class="yourMail">
+                    <input type="text" placeholder="Твой е-mail">
+                </div>
+                <div class="input__wrapper">
+                    <!-- <input type="file" name="file" id="input__file" class="input input__file">
+                    <label for="input__file">Прикрепить скриншот</label> -->
+                    <input type="file" id="real-input" class="input-input__file" hidden/>
+                    <label for="real-input" class="custom-file-upload">Прикрепить скриншот
+                    <br><a id="formattS" class="formatS"> .png / .jpg / .pdf</a>
+                    </label>
+                </div>
             </div>
         </div>
     </main>
