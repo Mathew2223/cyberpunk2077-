@@ -1,3 +1,9 @@
+header{
+    display: flex;
+    position: absolute;
+    z-index: 10;
+    /* width: 100%; */
+}
 main{
     background-image: url('11.jpg');
     /* animation: changing 10s infinite; */
@@ -16,11 +22,6 @@ main{
     background-repeat: no-repeat;
     background-image: url('11.jpg')
 } */
-header{
-    display: flex;
-    position: absolute;
-    z-index: 10;
-}
 .logo-c{
     width: 296px;
     height: 74px;
@@ -78,7 +79,6 @@ header{
     margin-left: 1046px;
     color: #000000;
     font-family: Archangelsk;
-    /* font-style: Regular; */
     font-size: 62px;
     font-weight: 400;
     text-align: left;
@@ -242,4 +242,24 @@ input{
     line-height: 21.09px;
     text-align: left;
 
+}
+.checkFormm{
+    width: 14px;
+    height: 14px;
+    margin-top: 1.5px;
+    margin-left: 320px;
+    position: absolute;
+    display: flex; 
+}
+.agreMy{
+    color: #ffff;
+    margin-left: 340px;
+    font-family: 'Roboto', normal
+}
+.rect-yell{
+    /* width: 100%; */
+    background: #F8F200;
+    width: 1920px;
+    height: 676px;
+    margin-top: -4px;
 }
